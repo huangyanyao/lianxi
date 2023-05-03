@@ -62,6 +62,7 @@ public class DishApp {
         Dish dish3 = new Dish(3, "青菜汤", 12.0);
         Dish dish4 = new Dish(4, "小炒肉", 18.0);
         Collections.addAll(list,dish,dish2,dish3,dish4);
+        System.out.println("第二次添加");
 
     }
 
